@@ -28,3 +28,10 @@ def aprekinat_laminatu(plaksnes_garums, plaksnes_platums, istabas_garums, istaba
 
 # pārbaude
 print(aprekinat_laminatu(1, .5, 3, 2))
+# Ievade
+istabas_garums = float(input("Ievadiet istabas garumu (m^2): "))
+istabas_platums = float(input ("Ievadiet istabas platumu (m^2): "))
+pakas_cena = float(input ("Ievadiet laminata pakas cenu (EUR): "))
+pakas_platiba = float(input("Ievadiet laminata pakas sedzoso platibu (m^2): "))
+plaksnes_garums = float(input ("Ievadiet plaksnes garumu (m): "))
+plaksnes_platums = float(input ("Ievadiet plaksnes platumu (m): "))
